@@ -43,8 +43,8 @@ public class Twilio {
 				// something went wrong, reporting it
 				return TwilioStatus.Fail("\(response.bodyString)")
 			}
-			// success, lets
-			print(response.bodyJSON)
+			// success
+//			print(response.bodyJSON)
 			return TwilioStatus.Success
 
 		} catch {
